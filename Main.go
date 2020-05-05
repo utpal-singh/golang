@@ -12,6 +12,12 @@ var (
 	year float64 = 3.75
 )
 
+var (
+	I int = 55
+)
+
+var j int = 32
+
 func main() {
 	//i := 42.
 
@@ -20,6 +26,9 @@ func main() {
 	// var i int
 	// i = 32.0
 
-	j := 23
-	fmt.Printf("%v, %T", age, year)
+	//j := 23
+
+	var theHTTPRequest string = "https://google.com"
+
+	fmt.Printf("%v, %T", theHTTPRequest, theHTTPRequest)
 }
