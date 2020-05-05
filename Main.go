@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 var (
 	actorname string = "Utpal Singh"
 	companion string = "Male"
@@ -40,17 +36,17 @@ func main() {
 
 	//j = strconv.Itoa(i)
 
-	var n bool = true
-	var k bool = false
+	//var n bool = true
+	//var k bool = false
 
-	a := 1 == 1
-	b := 2 == 3
+	//a := 1 == 1
+	//b := 2 == 3
 
-	var f bool
+	//var f bool
 
-	fmt.Printf("%v, %T\n", n, n)
-	fmt.Printf("%v, %T\n", k, k)
-	fmt.Printf("%v, %T\n", a, a)
-	fmt.Printf("%v, %T\n", b, b)
-	fmt.Printf("%v, %T\n", f, f)
+	//fmt.Printf("%v, %T\n", n, n)
+	//fmt.Printf("%v, %T\n", k, k)
+	//fmt.Printf("%v, %T\n", a, a)
+	//fmt.Printf("%v, %T\n", b, b)
+	//fmt.Printf("%v, %T\n", f, f)
 }
