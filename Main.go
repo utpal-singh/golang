@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
 var (
@@ -33,13 +32,25 @@ func main() {
 
 	//var theHTTPRequest string = "https://google.com"
 
-	var i int = 42
+	//var i int = 42
 
-	fmt.Printf("%v, %T\n", i, i)
+	//fmt.Printf("%v, %T\n", i, i)
 
-	var j string
+	//var j string
 
-	j = strconv.Itoa(i)
+	//j = strconv.Itoa(i)
 
-	fmt.Printf("%v, %T", j, j)
+	var n bool = true
+	var k bool = false
+
+	a := 1 == 1
+	b := 2 == 3
+
+	var f bool
+
+	fmt.Printf("%v, %T\n", n, n)
+	fmt.Printf("%v, %T\n", k, k)
+	fmt.Printf("%v, %T\n", a, a)
+	fmt.Printf("%v, %T\n", b, b)
+	fmt.Printf("%v, %T\n", f, f)
 }
