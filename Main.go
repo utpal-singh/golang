@@ -28,7 +28,15 @@ func main() {
 
 	//j := 23
 
-	var theHTTPRequest string = "https://google.com"
+	//var theHTTPRequest string = "https://google.com"
 
-	fmt.Printf("%v, %T", theHTTPRequest, theHTTPRequest)
+	var i float32 = 42.5
+
+	fmt.Printf("%v, %T\n", i, i)
+
+	var j int
+
+	j = int(i)
+
+	fmt.Printf("%v, %T", j, j)
 }
