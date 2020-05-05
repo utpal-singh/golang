@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 var (
 	actorname string = "Utpal Singh"
 	companion string = "Male"
@@ -46,21 +44,21 @@ func main() {
 
 	//var f bool
 
-	var a1 int8 = 100
-	fmt.Printf("%v, %T\n", a1, a1)
+	//var a1 int8 = 100
+	//fmt.Printf("%v, %T\n", a1, a1)
 
-	var a2 uint16 = 20
-	fmt.Printf("%v, %T\n", a2, a2)
+	//var a2 uint16 = 20
+	//fmt.Printf("%v, %T\n", a2, a2)
 
 	//var a3 float32 = 5.0
 
-	x1 := 2
-	x2 := 3
+	//x1 := 2
+	//x2 := 3
 
 	//fmt.Printf("%v\n", a3+a1)
-	fmt.Println(x1 - x2)
-	fmt.Println(x1 % x2)
-	fmt.Println(x1 / x2)
+	//fmt.Println(x1 - x2)
+	//fmt.Println(x1 % x2)
+	//fmt.Println(x1 / x2)
 
 	//fmt.Printf("%v, %T\n", n, n)
 	//fmt.Printf("%v, %T\n", k, k)
