@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 var (
 	actorname string = "Utpal Singh"
@@ -30,13 +33,13 @@ func main() {
 
 	//var theHTTPRequest string = "https://google.com"
 
-	var i float32 = 42.5
+	var i int = 42
 
 	fmt.Printf("%v, %T\n", i, i)
 
-	var j int
+	var j string
 
-	j = int(i)
+	j = strconv.Itoa(i)
 
 	fmt.Printf("%v, %T", j, j)
 }
