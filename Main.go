@@ -19,5 +19,7 @@ func main() {
 
 	// var i int
 	// i = 32.0
+
+	j := 23
 	fmt.Printf("%v, %T", age, year)
 }
