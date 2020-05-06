@@ -79,12 +79,26 @@ func main() {
 
 	//BitShifting
 
-	a := 8              // 2^3 1000
-	fmt.Println(a << 3) // 2^3*2^3 = 2^6 1000000
-	fmt.Println(a >> 3) // 2^3/2^3 = 2^0 1
+	//a := 8              // 2^3 1000
+	//fmt.Println(a << 3) // 2^3*2^3 = 2^6 1000000
+	//fmt.Println(a >> 3) // 2^3/2^3 = 2^0 1
 
-	b := 10             // 2^3 + 2^1 1010
-	fmt.Println(b << 3) // 2^3*2^3 = 2^6 1000000
-	fmt.Println(b >> 3) // 2^3/2^3 = 2^0 1
+	//b := 10             // 2^3 + 2^1 1010
+	//fmt.Println(b << 3) // 2^3*2^3 = 2^6 1000000
+	//fmt.Println(b >> 3) // 2^3/2^3 = 2^0 1
+
+	//Floating Point
+
+	n := 3.14
+	p := 13.6e72
+	q := 2.1E14
+
+	var r float32
+	r = 2e32
+
+	fmt.Printf("%v, %T\n", n, n)
+	fmt.Printf("%v, %T\n", p, p)
+	fmt.Printf("%v, %T\n", q, q)
+	fmt.Printf("%v, %T\n", r, r)
 
 }
