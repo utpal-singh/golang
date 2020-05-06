@@ -89,16 +89,30 @@ func main() {
 
 	//Floating Point
 
-	n := 3.14
-	p := 13.6e72
-	q := 2.1E14
+	//n := 3.14
+	//p := 13.6e72
+	//q := 2.1E14
 
-	var r float32
-	r = 2e32
+	//var r float32
+	//r = 2e32
+
+	//fmt.Printf("%v, %T\n", n, n)
+	//fmt.Printf("%v, %T\n", p, p)
+	//fmt.Printf("%v, %T\n", q, q)
+	//fmt.Printf("%v, %T\n", r, r)
+
+	//Complex Primitive type
+
+	var n complex64 = 1 + 2i
 
 	fmt.Printf("%v, %T\n", n, n)
-	fmt.Printf("%v, %T\n", p, p)
-	fmt.Printf("%v, %T\n", q, q)
-	fmt.Printf("%v, %T\n", r, r)
+	fmt.Printf("%v, %T\n", real(n), real(n))
+	fmt.Printf("%v, %T\n", imag(n), imag(n))
+
+	var s complex128 = 1 + 2i
+
+	fmt.Printf("%v, %T\n", s, s)
+	fmt.Printf("%v, %T\n", real(s), real(s))
+	fmt.Printf("%v, %T\n", imag(s), imag(s))
 
 }
