@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 var (
 	actorname string = "NSobbs knkasw"
 	companion string = "kacbbk"
@@ -125,16 +127,22 @@ func main() {
 	// fmt.Printf("%v, %T\n", math.Sin(1.57), math.Sin(1.57))
 	//Won't work, Constants can only be made from Primitive dAtatypes
 
-	// const a int = 23
-	// const b string = "Hi, this is Go"
-	// const c bool = true
-	// const d float64 = 23.43
+	const a int = 23
+	const b string = "Hi, this is Go"
+	const c bool = true
+	const d float64 = 23.43
 
-	// // const d float64 = 2324.23
+	// const d float64 = 2324.23
 
-	// fmt.Printf("%v, %T\n", a, a)
-	// fmt.Printf("%v, %T\n", b, b)
-	// fmt.Printf("%v, %T\n", c, c)
-	// fmt.Printf("%v, %T\n", d, d)
+	fmt.Printf("%v, %T\n", a, a)
+	fmt.Printf("%v, %T\n", b, b)
+	fmt.Printf("%v, %T\n", c, c)
+	fmt.Printf("%v, %T\n", d, d)
+
+	// const a = 15
+	// var b int16 = 40
+
+	// fmt.Printf("%v, %T\n", a+b.a+b)
+	// //Works in previopus Go, not in current bersions
 
 }
