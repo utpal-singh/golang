@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 var (
 	actorname string = "Utpal Singh"
 	companion string = "Male"
@@ -65,4 +67,13 @@ func main() {
 	//fmt.Printf("%v, %T\n", a, a)
 	//fmt.Printf("%v, %T\n", b, b)
 	//fmt.Printf("%v, %T\n", f, f)
+
+	//Bitwise Operators
+	a := 10 //0010
+	b := 3  //1011
+
+	fmt.Println(a & b)  //0010 and
+	fmt.Println(a | b)  //1011 or
+	fmt.Println(a ^ b)  //1001 Any of the bitset but not both
+	fmt.Println(a &^ b) //0100 None of the bitset
 }
