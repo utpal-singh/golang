@@ -1,10 +1,8 @@
 package main
 
-import "fmt"
-
 var (
-	actorname string = "Utpal Singh"
-	companion string = "Male"
+	actorname string = "NSobbs knkasw"
+	companion string = "kacbbk"
 )
 
 var (
@@ -117,8 +115,26 @@ func main() {
 
 	//Arrays
 
-	s := "This is an array"
+	// s := "This is an array"
 
-	fmt.Printf("%v, %v, %T\n", string(s[8]), s[8], s[8])
+	// fmt.Printf("%v, %v, %T\n", string(s[8]), s[8], s[8])
+
+	//Constants
+
+	//const myConst float64 = math.Sin(1.57)
+	// fmt.Printf("%v, %T\n", math.Sin(1.57), math.Sin(1.57))
+	//Won't work, Constants can only be made from Primitive dAtatypes
+
+	// const a int = 23
+	// const b string = "Hi, this is Go"
+	// const c bool = true
+	// const d float64 = 23.43
+
+	// // const d float64 = 2324.23
+
+	// fmt.Printf("%v, %T\n", a, a)
+	// fmt.Printf("%v, %T\n", b, b)
+	// fmt.Printf("%v, %T\n", c, c)
+	// fmt.Printf("%v, %T\n", d, d)
 
 }
