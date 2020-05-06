@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 var (
 	actorname string = "Utpal Singh"
 	companion string = "Male"
@@ -112,5 +114,11 @@ func main() {
 	// fmt.Printf("%v, %T\n", s, s)
 	// fmt.Printf("%v, %T\n", real(s), real(s))
 	// fmt.Printf("%v, %T\n", imag(s), imag(s))
+
+	//Arrays
+
+	s := "This is an array"
+
+	fmt.Printf("%v, %v, %T\n", string(s[8]), s[8], s[8])
 
 }
