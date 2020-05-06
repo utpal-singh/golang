@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 var (
 	actorname string = "Utpal Singh"
 	companion string = "Male"
@@ -103,16 +101,16 @@ func main() {
 
 	//Complex Primitive type
 
-	var n complex64 = 1 + 2i
+	//var n complex64 = 1 + 2i
 
-	fmt.Printf("%v, %T\n", n, n)
-	fmt.Printf("%v, %T\n", real(n), real(n))
-	fmt.Printf("%v, %T\n", imag(n), imag(n))
+	//fmt.Printf("%v, %T\n", n, n)
+	//fmt.Printf("%v, %T\n", real(n), real(n))
+	//fmt.Printf("%v, %T\n", imag(n), imag(n))
 
-	var s complex128 = 1 + 2i
+	// var s complex128 = 1 + 2i
 
-	fmt.Printf("%v, %T\n", s, s)
-	fmt.Printf("%v, %T\n", real(s), real(s))
-	fmt.Printf("%v, %T\n", imag(s), imag(s))
+	// fmt.Printf("%v, %T\n", s, s)
+	// fmt.Printf("%v, %T\n", real(s), real(s))
+	// fmt.Printf("%v, %T\n", imag(s), imag(s))
 
 }
