@@ -69,11 +69,22 @@ func main() {
 	//fmt.Printf("%v, %T\n", f, f)
 
 	//Bitwise Operators
-	a := 10 //0010
-	b := 3  //1011
+	//a := 10 //0010
+	//b := 3  //1011
 
-	fmt.Println(a & b)  //0010 and
-	fmt.Println(a | b)  //1011 or
-	fmt.Println(a ^ b)  //1001 Any of the bitset but not both
-	fmt.Println(a &^ b) //0100 None of the bitset
+	//fmt.Println(a & b)  //0010 and
+	//fmt.Println(a | b)  //1011 or
+	//fmt.Println(a ^ b)  //1001 Any of the bitset but not both
+	//fmt.Println(a &^ b) //0100 None of the bitset
+
+	//BitShifting
+
+	a := 8              // 2^3 1000
+	fmt.Println(a << 3) // 2^3*2^3 = 2^6 1000000
+	fmt.Println(a >> 3) // 2^3/2^3 = 2^0 1
+
+	b := 10             // 2^3 + 2^1 1010
+	fmt.Println(b << 3) // 2^3*2^3 = 2^6 1000000
+	fmt.Println(b >> 3) // 2^3/2^3 = 2^0 1
+
 }
